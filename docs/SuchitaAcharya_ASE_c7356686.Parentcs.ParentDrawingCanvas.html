@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ParentDrawingCanvas | suchita </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ParentDrawingCanvas | suchita ">
+      
+      <meta name="description" content="This class is a part of the  interface and handles drawing on a bitmap canvas.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/new/main/apiSpec/new?filename=SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas.md&amp;value=---%0Auid%3A%20SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="suchita">
+            suchita
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas">
+
+
+
+  <h1 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas" class="text-break">
+Class ParentDrawingCanvas  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SuchitaAcharya_ASE_c7356686.html">SuchitaAcharya_ASE_c7356686</a>.<a class="xref" href="SuchitaAcharya_ASE_c7356686.Parentcs.html">Parentcs</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SuchitaAcharya_ASE_c7356686.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>This class is a part of the <span class="xref">BOOSE.ICanvas</span> interface and handles drawing on a bitmap canvas.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ParentDrawingCanvas : ICanvas</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ParentDrawingCanvas</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">ICanvas</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>It offers functions to draw shapes and text on a canvas.
+You can also change the pen's color and thickness, move the pen to different positions, and clear the canvas.
+The canvas has a fixed width and height to limit where you can draw.
+The class makes use of a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a> object to display the drawings on the canvas.</p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas__ctor_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.#ctor*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas__ctor" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.#ctor">
+  ParentDrawingCanvas()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the AppDrawingCanvas class with default canvas size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParentDrawingCanvas()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas__ctor_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This constructor sets the canvas size to the default values defined by the constants <code>XSIDE</code> and <code>YSIDE</code>.
+It also initializes the pen size to 1 and sets the pen color to black (RGB: 0, 0, 0).</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the canvas size cannot be set properly or if invalid values are provided for pen size or color.</p>
+</dd>
+  </dl>
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Filled_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Filled*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Filled" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Filled">
+  Filled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether the shape is filled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Filled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value: <code>true</code> if the shape is filled, or <code>false</code> if it is not filled.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_PenColour_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.PenColour*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_PenColour" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.PenColour">
+  PenColour
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the pen color for the next drawing operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object PenColour { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_PenColour_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property allows you to retrieve or modify the current pen color used for drawing operations.
+The color is represented as a <code>Color</code> object, and it determines the color of lines, shapes,
+and other drawn elements on the canvas.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidcastexception">InvalidCastException</a></dt>
+    <dd><p>Thrown if the provided value for the pen color is not a valid <code>Color</code> object.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_PenSize_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.PenSize*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_PenSize" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.PenSize">
+  PenSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the pen size, which determines the thickness of the lines drawn.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PenSize { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The pen size, which is a positive integer. It determines how thick the lines will appear on the canvas.
+A value greater than zero is required. If the value is zero or negative, an exception will be thrown.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown when the pen size is set to a value less than or equal to zero.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_XSIDE_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.XSIDE*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_XSIDE" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.XSIDE">
+  XSIDE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The width of the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int XSIDE { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_XSIDE_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This defines the horizontal dimension of the canvas. It is used to validate the X positions during drawing operations.
+The default value is 640 pixels.</p>
+</div>
+
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Xpos_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Xpos*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Xpos" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Xpos">
+  Xpos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the X position for the next drawing operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Xpos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Xpos_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property controls the X coordinate of the pen position, which determines
+the vertical position for subsequent drawing operations on the canvas.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the Y position is outside the allowed canvas boundaries (less than 0 or greater than the canvas height).</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_YSIDE_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.YSIDE*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_YSIDE" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.YSIDE">
+  YSIDE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The height of the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int YSIDE { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_YSIDE_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This defines the vertical dimension of the canvas. It is used to validate the Y positions during drawing operations.
+The default value is 480 pixels.</p>
+</div>
+
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Ypos_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Ypos*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Ypos" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Ypos">
+  Ypos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Y position for the next drawing operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Ypos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Ypos_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property controls the Y coordinate of the pen position, which determines
+the vertical position for subsequent drawing operations on the canvas.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the Y position is outside the allowed canvas boundaries (less than 0 or greater than the canvas height).</p>
+</dd>
+  </dl>
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Circle_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Circle*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Circle_System_Int32_System_Boolean_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Circle(System.Int32,System.Boolean)">
+  Circle(int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a circle at the current pen position, either filled or outlined, if the radius is valid and within canvas bounds.
+Logs a warning and skips drawing if the radius is invalid or the circle exceeds canvas size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Circle(int radius, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The circle's radius, must be a positive number.</p>
+</dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Determines if the circle is filled (true) or outlined (false).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Circle_System_Int32_System_Boolean__examples">Examples</h4>
+  <p>Circle(50, true);</p>
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Circle_System_Int32_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If drawing fails due to invalid input or canvas limits, a warning is logged, and execution continues.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Logs errors for invalid radius or exceeded canvas bounds.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Clear_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Clear*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Clear" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Clear">
+  Clear()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L443"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clears the canvas by filling it with a default background color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_DrawTo_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.DrawTo*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_DrawTo_System_Int32_System_Int32_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.DrawTo(System.Int32,System.Int32)">
+  DrawTo(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L462"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a line from the current pen position to a specified point on the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawTo(int x, int y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The X coordinate of the line's endpoint.</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The Y coordinate of the line's endpoint.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_DrawTo_System_Int32_System_Int32__examples">Examples</h4>
+  <p>DrawTo(90, 80);</p>
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_DrawTo_System_Int32_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Updates the pen's position to the endpoint after drawing. If the line can't be drawn due to an uninitialized graphics context,
+a warning is logged, and execution continues.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the graphics context is not initialized or coordinates are out of bounds.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_GetGraphics_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.GetGraphics*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_GetGraphics" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.GetGraphics">
+  GetGraphics()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L749"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the current Graphics object used for drawing on the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Graphics GetGraphics()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a></dt>
+    <dd><p>The Graphics object associated with the current canvas.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_GetGraphics_examples">Examples</h4>
+  <p>The following example demonstrates how to retrieve the current Graphics object and
+handle any potential exceptions if the graphics object is not initialized:</p>
+<pre><code class="lang-csharp">try
+{
+    Graphics currentGraphics = GetGraphics();
+    // Use currentGraphics for drawing operations, if not null
+}
+catch (CanvasException ex)
+{
+    Console.WriteLine($"Error: {ex.Message}"); // Handle the error (e.g., log it)
+}</code></pre>
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_GetGraphics_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method allows access to the internal <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a> object used for drawing on the canvas.
+If the graphics object has not been initialized (i.e., it is null), a <span class="xref">BOOSE.CanvasException</span> is thrown,
+indicating that the drawing cannot proceed.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the graphics object is not initialized or is null. This exception is thrown
+when there is an attempt to retrieve the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a> object before it is set.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_MoveTo_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.MoveTo*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_MoveTo_System_Int32_System_Int32_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.MoveTo(System.Int32,System.Int32)">
+  MoveTo(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L542"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Moves the drawing cursor to a specified position without drawing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveTo(int x, int y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The X coordinate to move the cursor to (horizontal position).</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The Y coordinate to move the cursor to (vertical position).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_MoveTo_System_Int32_System_Int32__examples">Examples</h4>
+  <p>MoveTo(50, 100);</p>
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_MoveTo_System_Int32_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Updates the pen's position without drawing. If the coordinates are out of bounds, the position is not updated, and a warning is logged.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if coordinates are outside the canvas boundaries.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Rect_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Rect*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Rect(System.Int32,System.Int32,System.Boolean)">
+  Rect(int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L579"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a rectangle at the current position with specified dimensions and style (filled or outlined).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Rect(int width, int height, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The rectangle's width, must be a positive number.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The rectangle's height, must be a positive number.</p>
+</dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Determines if the rectangle is filled (true) or outlined (false).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Rect_System_Int32_System_Int32_System_Boolean__examples">Examples</h4>
+  <p>Rect(100, 50, true);</p>
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Rect_System_Int32_System_Int32_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Draws the rectangle starting from the current position. If dimensions are invalid or the rectangle exceeds the canvas,
+it won't be drawn, and a warning is logged without interrupting execution.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if dimensions are invalid or the rectangle exceeds canvas boundaries.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Reset_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Reset*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Reset" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Reset">
+  Reset()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L641"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resets the canvas to its initial state by resetting the drawing cursor position to the top-left corner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Reset_examples">Examples</h4>
+  <p>The following example demonstrates how to reset the canvas and start fresh with drawing:</p>
+<pre><code class="lang-csharp">Reset(); // Resets the drawing cursor to the top-left corner</code></pre>
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Reset_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method resets the drawing cursor (pen position) to the initial position at (0, 0).
+Any previous drawing operations will not be affected, but the next drawing operations
+will begin from the top-left corner of the canvas.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if there is an issue with resetting the canvas. For example, if the canvas is in an
+invalid state or has not been properly initialized, an exception could be thrown.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Set_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Set*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Set_System_Int32_System_Int32_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Set(System.Int32,System.Int32)">
+  Set(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the canvas size and initializes the drawing surface.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(int xsize, int ysize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>xsize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The width of the canvas, in pixels.</p>
+</dd>
+    <dt><code>ysize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The height of the canvas, in pixels.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Set_System_Int32_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method initializes the canvas with the specified width and height. It also sets the starting
+position of the drawing cursor (xPos, yPos) to the top-left corner (0, 0). After setting the canvas size,
+it creates a new <code>Bitmap</code> object for drawing and a corresponding <code>Graphics</code> object. Additionally,
+it clears the canvas to prepare for drawing.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the width or height of the canvas is invalid (e.g., negative or zero), or if there is an error
+during the initialization of the drawing surface.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_SetCanvas_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.SetCanvas*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_SetCanvas_System_Drawing_Bitmap_System_Drawing_Graphics_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.SetCanvas(System.Drawing.Bitmap,System.Drawing.Graphics)">
+  SetCanvas(Bitmap, Graphics)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L690"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the canvas by assigning the provided <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.bitmap">Bitmap</a> and <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a> objects
+for drawing operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCanvas(Bitmap newBitmap, Graphics newGraphics)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newBitmap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.bitmap">Bitmap</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.bitmap">Bitmap</a> object to be used as the canvas surface.
+This object holds the pixel data for the canvas.</p>
+</dd>
+    <dt><code>newGraphics</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a> object to be used for rendering on the canvas.
+This object provides drawing capabilities like shapes, text, and images.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_SetCanvas_System_Drawing_Bitmap_System_Drawing_Graphics__examples">Examples</h4>
+  <p>The following example demonstrates how to initialize a canvas with a 500x500 Bitmap:</p>
+<pre><code class="lang-csharp">Bitmap bitmap = new Bitmap(500, 500);
+Graphics graphics = Graphics.FromImage(bitmap);
+SetCanvas(bitmap, graphics);</code></pre>
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_SetCanvas_System_Drawing_Bitmap_System_Drawing_Graphics__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method initializes or reinitializes the internal canvas by setting the Bitmap and Graphics objects.
+After setting the canvas, it clears the drawing surface with a white background to provide a fresh start.
+If you need a specific background color, you can modify the method to accept a color parameter or change the
+default behavior.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if either <code class="paramref">newBitmap</code> or <code class="paramref">newGraphics</code> is <code>null</code>.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_SetColour_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.SetColour*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_SetColour_System_Int32_System_Int32_System_Int32_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.SetColour(System.Int32,System.Int32,System.Int32)">
+  SetColour(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L792"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the pen color using specified RGB values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColour(int red, int green, int blue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>red</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The red component of the color, ranging from 0 to 255.</p>
+</dd>
+    <dt><code>green</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The green component of the color, ranging from 0 to 255.</p>
+</dd>
+    <dt><code>blue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The blue component of the color, ranging from 0 to 255.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_SetColour_System_Int32_System_Int32_System_Int32__examples">Examples</h4>
+  <p>The following example demonstrates how to set the pen color to blue:</p>
+<pre><code class="lang-csharp">SetColour(0, 0, 255); // Sets the pen color to pure blue</code></pre>
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_SetColour_System_Int32_System_Int32_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method allows precise control of the pen's color by specifying the intensity of
+red, green, and blue components. If an invalid value is provided, an exception is thrown.
+The pen is updated with the new color and retains the existing pen size.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown when any of the RGB components are outside the valid range of 0 to 255.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Tri_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Tri*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Tri_System_Int32_System_Int32_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.Tri(System.Int32,System.Int32)">
+  Tri(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L827"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a triangle inside the specified rectangle, ensuring it stays within canvas limits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Tri(int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The rectangle's width (triangle base).</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The rectangle's height (triangle height).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Tri_System_Int32_System_Int32__examples">Examples</h4>
+  <p>Tri(100, 50);</p>
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_Tri_System_Int32_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Checks that the triangle's dimensions are positive and within the canvas boundaries. Throws an exception if any part is out of bounds.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the dimensions are invalid or the triangle exceeds the canvas size.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_WriteText_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.WriteText*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_WriteText_System_String_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.WriteText(System.String)">
+  WriteText(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L883"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws the provided text at the current pen position on the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteText(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to be displayed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_WriteText_System_String__examples">Examples</h4>
+  <p>WriteText(&quot;Drawing..&quot;);</p>
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_WriteText_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Validates the text before drawing and ensures it fits within the canvas. Also confirms that the graphics context is set up.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the text is empty, exceeds the canvas area, or if the graphics context is uninitialized.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_getBitmap_" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.getBitmap*"></a>
+
+  <h3 id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_getBitmap" data-uid="SuchitaAcharya_ASE_c7356686.Parentcs.ParentDrawingCanvas.getBitmap">
+  getBitmap()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L510"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the Bitmap object representing the current drawing on the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object getBitmap()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The Bitmap object associated with the current canvas. This object contains the pixel data
+for the current drawing and can be used to save or manipulate the canvas image.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="SuchitaAcharya_ASE_c7356686_Parentcs_ParentDrawingCanvas_getBitmap_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The Bitmap object returned by this method reflects the current state of the canvas,
+including any drawings made with the pen. If no drawing has been done, it will return
+an empty or unmodified bitmap.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the Bitmap object has not been initialized or there is an issue with accessing it.</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE-Classroom/ase-demo-assignment-suchuuuu/blob/main/MyDocs/SuchitaAcharya_ASE_c7356686/Parentcs/ParentDrawingCanvas.cs/#L21" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
